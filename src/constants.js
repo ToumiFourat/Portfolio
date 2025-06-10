@@ -11,14 +11,14 @@ import IsimgLogo from "./assets/education_logo/isimg.png";
 import LyceeLogo from "./assets/education_logo/lycee.png";
 
 // Tech Logos
-import HtmlLogo from "./assets/tech_logo/html.jpg";
+import HtmlLogo from "./assets/tech_logo/html.png";
 import CssLogo from "./assets/tech_logo/css.png";
 import JavaScriptLogo from "./assets/tech_logo/JavaScript.png";
 import ReactLogo from "./assets/tech_logo/React.webp";
 import NodeJsLogo from "./assets/tech_logo/nodejs.png";
 import ExpressLogo from "./assets/tech_logo/express.png";
 import MongoDbLogo from "./assets/tech_logo/mongodb.png";
-import GitLogo from "./assets/tech_logo/git.jpg";
+import GitLogo from "./assets/tech_logo/git.png";
 import GithubLogo from "./assets/tech_logo/github.png";
 import FigmaLogo from "./assets/tech_logo/figma.png";
 import BootstrapLogo from "./assets/tech_logo/Bootstrap.png";
@@ -26,7 +26,7 @@ import CppLogo from "./assets/tech_logo/cpp.png";
 import Angular from "./assets/tech_logo/angular.png";
 import Spring_boot from "./assets/tech_logo/spring_boot.webp";
 import Oracle12c from "./assets/tech_logo/oracle12c.png";
-import Tailwind from "./assets/tech_logo/tailwind.png";
+import Tailwind from "./assets/tech_logo/tailwind.svg";
 
 // Work/Project Logos
 import BimaStoreLogo from "./assets/work_logo/BimaStore.png";
@@ -44,11 +44,11 @@ export const SkillsInfo = [
     skills: [
       { name: "HTML", logo: HtmlLogo },
       { name: "CSS", logo: CssLogo },
-      { name: "JavaScript", logo: JavaScriptLogo },
+
       { name: "React", logo: ReactLogo },
       { name: "Bootstrap", logo: BootstrapLogo },
       { name: "Angular", logo: Angular },
-      { name: "Tailwind Css", logo: Tailwind },
+      { name: "Tailwind CSS", logo: Tailwind },
     ],
   },
   {
@@ -76,7 +76,10 @@ export const SkillsInfo = [
   },
   {
     title: "Languages",
-    skills: [{ name: "C++", logo: CppLogo }],
+    skills: [
+      { name: "C++", logo: CppLogo },
+      { name: "JavaScript", logo: JavaScriptLogo },
+    ],
   },
 ];
 

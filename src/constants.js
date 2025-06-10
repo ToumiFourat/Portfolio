@@ -123,21 +123,33 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: IsimgLogo,
-    school:
-      "ISIMG - Institut Supérieur d'Informatique et de Multimédia de Gabès.",
-    date: "2021 - Present",
-    degree: "Software and Information Systems Engineer.",
-    desc: "Specialization in Fullstack Web Development.",
+    img: LyceeLogo,
+    school: "Zarzis Technical High School",
+    date: "2017 - 2021",
+    grade: " 12,33",
+    degree: "Mathematical",
+    desc: "Focus on solving mathematical problems.",
   },
   {
     id: 1,
-    img: LyceeLogo,
-    school: "Lycée Technique Zarzis",
-    date: "2017 - 2021",
-    grade: "Baccalaureate",
-    degree: "Mathematical",
-    desc: "Focus on solving mathematical problems.",
+    img: IsimgLogo,
+    school:
+      "ISIMG - Higher Institute of Computer Science and Multimedia of Gabès",
+    date: "2021 - 2023",
+    grade: "12,28",
+    degree:
+      "Integrated Preparatory Cycle in Mathematics-Physics-Computer Science",
+    desc: "Built a solid foundation in mathematics, physics, and developed strong problem-solving and algorithmic thinking skills.",
+  },
+  {
+    id: 2,
+    img: IsimgLogo,
+    school:
+      "ISIMG - Higher Institute of Computer Science and Multimedia of Gabès.",
+    date: "2023 - Present",
+    grade: "In progress",
+    degree: "Software Engineering and Information Systems Training Cycle",
+    desc: "Specialization in Fullstack Web Development.",
   },
 ];
 
